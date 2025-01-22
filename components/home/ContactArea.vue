@@ -49,7 +49,7 @@ const handleSubmit = () => {
                 </div> -->
 
 
-                <div class="single-contact wow fadeInUp" data-wow-delay=".6s">
+                <!-- <div class="single-contact wow fadeInUp" data-wow-delay=".6s">
                   <h2>Socials</h2>
                   <div class="about-social">
                     <ul>
@@ -57,7 +57,7 @@ const handleSubmit = () => {
                       <li><a target='_blank' href="https://github.com/travisfrazier/"><i class="ri-github-line"></i></a></li>
                     </ul>
                   </div>
-                </div>
+                </div> -->
 
               </div>
             </div> 

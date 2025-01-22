@@ -61,11 +61,11 @@ import menu_data from "../data/menu_data"
                                     </ul>
                                 </nav>
                             </div> -->
-                            <div class="side-menu-icon d-lg-none text-end">
+                            <!-- <div class="side-menu-icon d-lg-none text-end">
                                 <a style="cursor: pointer;" 
                                 @click="toggleMenu"
                                 class="info-toggle-btn f-right sidebar-toggle-btn"><i class="fal fa-bars"></i></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
