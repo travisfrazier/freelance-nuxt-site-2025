@@ -50,7 +50,7 @@
                 </div>
                 <div class="testi-des">
                   <h5>Jessica H.</h5>
-=                </div>
+                </div>
               </div>
 
             </div>

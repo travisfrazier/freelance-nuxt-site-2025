@@ -2780,10 +2780,10 @@ body.loaded {
     transform: translateY(0);
 }
 
-.progress-wrap i {
+.progress-wrap p {
     position: absolute;
     left: 10px;
-    top: 8px;
+    top: 9.2px;
     font-size: 25px;
     text-align: center;
     color: #FFFFFF !important;
