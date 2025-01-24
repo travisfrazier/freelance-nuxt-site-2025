@@ -35,9 +35,7 @@ const counter_data = [
           <div class="col-lg-9 col-sm-9">
             <div class="about-content-part wow fadeInUp delay-0-2s">
               <p>
-                I’m Travis Frazier, an experienced front-end developer with over 6 years of
-                experience in creating intuitive and engaging web
-                experiences. I specialize in helping small businesses take their web prescense to the next level.
+                I specialize in helping small businesses take their web presence to the next level. Whether that's through revampging an existing site or creating a new one from scratch, I can help you achieve your goals. I also do custom web applications and have experience with a variety of technologies. Let's work together to create something amazing!
               </p>
             </div>
             <!-- START COUNTER DESIGN AREA -->

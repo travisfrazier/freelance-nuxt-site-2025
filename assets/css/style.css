@@ -88,7 +88,7 @@ h5,
 h6,
 .h6,
 .accordion-item .accordion-button {
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     font-family: "Oswald", sans-serif;
 }
 
@@ -1285,6 +1285,7 @@ html {
 
 .hero-counter-area {
     margin-top: 60px;
+    display: none !important;
 }
 
 
@@ -1636,7 +1637,7 @@ h2.about-pre-title {
 
 .service-item h5 {
     margin-bottom: 60px;
-    color: rgb(119, 119, 125);
+    color: #070707;
     font-family: var(--text-font);
     border: 1px solid;
     display: inline-block;
@@ -2042,7 +2043,7 @@ ul.extra-skills li i {
 }
 
 .portfolio-box .portfolio-caption:hover h1 {
-    color: #ed162b !important;
+    color: #1cef6d !important;
 }
 
 .portfolio-box .portfolio-caption * {
@@ -2149,6 +2150,7 @@ ul.extra-skills li i {
     background: var(--lighter-color);
     border: 1px solid var(--border-color);
     margin-bottom: 30px;
+    box-shadow: 4px 4px 4px 4px #959494;
 }
 
 
@@ -2187,7 +2189,7 @@ ul.extra-skills li i {
 }
 
 .testimonial-item:hover {
-    border: 1px solid #070707 !important;
+    box-shadow: 2px 2px 2px 2px #959494
 }
 
 .testimonial-item:hover .author:before {
@@ -2355,8 +2357,14 @@ ul.extra-skills li i {
 .contact-form-area {
     padding: 50px 30px 20px 40px;
     border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px #959494;
     border: 1px solid var(--border-color);
-        background: var(--lighter-color);
+    background: var(--lighter-color);
+    transition: all .3s;
+}
+.contact-form-area:hover, 
+.contact-content-part:hover {
+    box-shadow: 2px 2px 2px 2px #959494;
 }
 .contact-form-area .form-group {
     margin-bottom: 32px;
@@ -2368,7 +2376,7 @@ ul.extra-skills li i {
     margin-bottom: 0;
     position: absolute;
     margin-top: -45px;
-    color: #070707 !important;
+    color: #070707 #;
 }
 
 .contact-form-area .form-group .form-control {
@@ -2464,8 +2472,10 @@ ul.extra-skills li i {
 .contact-content-part {
     padding: 50px 30px 20px 40px;
     border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px #959494;
     border: 1px solid var(--border-color);
-        background: var(--lighter-color);
+    background: var(--lighter-color);
+    transition: all .3s;
 }
 
 .contact-page-content h6 {
